@@ -1,0 +1,1266 @@
+ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15 (Ubuntu 15.2.0-13ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-pocketsphinx --disable-libcaca --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libjxl --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-librsvg --enable-shared
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 126000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 138000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 144000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 150000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 156000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 162000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 192000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 201000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 270000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 285000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 303000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 324000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 336000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 342000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 378000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 414000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 453000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 486000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 510000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 522000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 528000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 591000).
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 630000).
+Input #0, mpegts, from 'udp://@:1234':
+  Duration: N/A, start: 1.433333, bitrate: N/A
+  Program 1 
+    Metadata:
+      service_name    : Service01
+      service_provider: FFmpeg
+  Stream #0:0[0x100]: Video: mpeg2video (Main) ([2][0][0][0] / 0x0002), yuv420p(tv, progressive), 640x360 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 90k tbn, start 1.433333
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 49152 vbv_delay: N/A
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg2video (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 5 times
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 120 DC, 120 AC, 120 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 30 fps, 30 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 wrapped_avframe
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 23 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in P frame
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 25 17
+[mpeg2video @ 0x5c8317b7b480] invalid cbp 0 at 10 19
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 27 20
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 680 DC, 680 AC, 680 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=621 1BD4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 0 DC, 0 AC, 0 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4216 75A224 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 0 DC, 0 AC, 0 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=527 C1DE at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 0 DC, 0 AC, 0 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 26 3
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 29 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 4 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 21
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=66751 497F at 0 23
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 12
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 29 13
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 1 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 20
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 23 21
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 560 DC, 560 AC, 560 MV errors in P frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 40 DC, 40 AC, 40 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 240 DC, 240 AC, 240 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 10 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 40 DC, 40 AC, 40 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 240 DC, 240 AC, 240 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 3 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 9
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 243 DC, 243 AC, 243 MV errors in I frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 2
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 33 4
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 12
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 34 15
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 24 18
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 23 21
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 453 DC, 453 AC, 453 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=79687 4537 at 0 23
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 3
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 22 4
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 5
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 6
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 7
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 18 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 32 11
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+    Last message repeated 3 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 15
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 3 times
+[mpeg2video @ 0x5c8317b7b480] invalid cbp 0 at 23 21
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 800 DC, 800 AC, 800 MV errors in P frame
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 9 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 120 DC, 120 AC, 120 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 19 2
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 200 DC, 200 AC, 200 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  167 fps=0.0 q=-0.0 size=N/A time=00:00:06.06 bitrate=N/A speed=12.1x elapsed=0:00:00.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 684000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 702000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 200 DC, 200 AC, 200 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  182 fps=182 q=-0.0 size=N/A time=00:00:06.60 bitrate=N/A speed= 6.6x elapsed=0:00:01.00    frame=  198 fps=132 q=-0.0 size=N/A time=00:00:07.13 bitrate=N/A speed=4.75x elapsed=0:00:01.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 810000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 32 2
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 240 DC, 240 AC, 240 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  214 fps=107 q=-0.0 size=N/A time=00:00:07.66 bitrate=N/A speed=3.83x elapsed=0:00:02.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 846000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 30 18
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 13 20
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 120 DC, 120 AC, 120 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  229 fps= 92 q=-0.0 size=N/A time=00:00:08.16 bitrate=N/A speed=3.27x elapsed=0:00:02.50    frame=  245 fps= 82 q=-0.0 size=N/A time=00:00:08.70 bitrate=N/A speed= 2.9x elapsed=0:00:03.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 918000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 33 2
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  261 fps= 75 q=-0.0 size=N/A time=00:00:09.23 bitrate=N/A speed=2.64x elapsed=0:00:03.50    frame=  276 fps= 69 q=-0.0 size=N/A time=00:00:09.73 bitrate=N/A speed=2.43x elapsed=0:00:04.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1008000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1026000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 12 7
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1035000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  288 fps= 64 q=-0.0 size=N/A time=00:00:10.26 bitrate=N/A speed=2.28x elapsed=0:00:04.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1059000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=46535 CA52 at 0 23
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 27 12
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 5 15
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] invalid cbp 0 at 35 17
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 1 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 8 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 13 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 25 20
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 30 21
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1737 2704 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 560 DC, 560 AC, 560 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  303 fps= 61 q=-0.0 size=N/A time=00:00:10.80 bitrate=N/A speed=2.16x elapsed=0:00:05.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1131000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=47111 5291 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 10 7
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 7
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 16 7
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 32 12
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 27 14
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 19 15
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 2 18
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 680 DC, 680 AC, 680 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  316 fps= 57 q=-0.0 size=N/A time=00:00:11.26 bitrate=N/A speed=2.05x elapsed=0:00:05.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1146000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1161000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1191000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  329 fps= 55 q=-0.0 size=N/A time=00:00:11.80 bitrate=N/A speed=1.97x elapsed=0:00:06.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1227000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  343 fps= 53 q=-0.0 size=N/A time=00:00:12.33 bitrate=N/A speed= 1.9x elapsed=0:00:06.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1242000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1245000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 231 DC, 231 AC, 231 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1275000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=57487 5F87 at 0 23
+[mpeg2video @ 0x5c8317b7b480] invalid cbp 0 at 25 4
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 22 5
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 14 9
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 16 7
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 16 12
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 25 13
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 19 15
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 19 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 15
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 2 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 5 19
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 4 19
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=5279 3434BC at 0 23
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 21
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 25 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 760 DC, 760 AC, 760 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  356 fps= 51 q=-0.0 size=N/A time=00:00:12.80 bitrate=N/A speed=1.83x elapsed=0:00:07.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1293000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1311000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=55663 5F87 at 0 23
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 22 5
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 16 7
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 32 12
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 27 14
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 38 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 25 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 19
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 25 22
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 21
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1477 65149E at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 760 DC, 760 AC, 760 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  368 fps= 49 q=-0.0 size=N/A time=00:00:13.33 bitrate=N/A speed=1.78x elapsed=0:00:07.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1338000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1362000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  381 fps= 48 q=-0.0 size=N/A time=00:00:13.83 bitrate=N/A speed=1.73x elapsed=0:00:08.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1386000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1395000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1401000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  393 fps= 46 q=-0.0 size=N/A time=00:00:14.33 bitrate=N/A speed=1.69x elapsed=0:00:08.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1422000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 27 9
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  407 fps= 45 q=-0.0 size=N/A time=00:00:14.83 bitrate=N/A speed=1.65x elapsed=0:00:09.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1491000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=34343 88BF at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 38 7
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 24 5
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 30 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 10
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 27 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 13
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 11 18
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 3 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 29 17
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 640 DC, 640 AC, 640 MV errors in P frame
+[mpeg2video @ 0x5c8317b7b480] overread 4
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 10
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 11
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 12
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 13
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 14
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 15
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 17
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 19
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 21
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 920 DC, 920 AC, 920 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+frame=  422 fps= 44 q=-0.0 size=N/A time=00:00:15.33 bitrate=N/A speed=1.61x elapsed=0:00:09.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1512000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1530000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 8 21
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1545000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  435 fps= 43 q=-0.0 size=N/A time=00:00:15.80 bitrate=N/A speed=1.58x elapsed=0:00:10.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1563000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=49671 22E5 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 26 5
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 25 7
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 19 7
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 9
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 30 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 10
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 11
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 13
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 24 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 10 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 8 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 5 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 6 19
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 26 22
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2939 17294A at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1288 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 800 DC, 800 AC, 800 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1584000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  449 fps= 43 q=-0.0 size=N/A time=00:00:16.36 bitrate=N/A speed=1.56x elapsed=0:00:10.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1638000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 16 15
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  463 fps= 42 q=-0.0 size=N/A time=00:00:16.83 bitrate=N/A speed=1.53x elapsed=0:00:11.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1647000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  478 fps= 42 q=-0.0 size=N/A time=00:00:17.36 bitrate=N/A speed=1.51x elapsed=0:00:11.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1701000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  492 fps= 41 q=-0.0 size=N/A time=00:00:17.86 bitrate=N/A speed=1.49x elapsed=0:00:12.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1746000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  505 fps= 40 q=-0.0 size=N/A time=00:00:18.33 bitrate=N/A speed=1.47x elapsed=0:00:12.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1782000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 32 20
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 120 DC, 120 AC, 120 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1818000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  521 fps= 40 q=-0.0 size=N/A time=00:00:18.86 bitrate=N/A speed=1.45x elapsed=0:00:13.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1848000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  534 fps= 40 q=-0.0 size=N/A time=00:00:19.33 bitrate=N/A speed=1.43x elapsed=0:00:13.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1872000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1878000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1887000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=45687 3E7B at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 11 7
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 23 5
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 1 9
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 7
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 31 11
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 10
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 11
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 36 17
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 13 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 37 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 1 19
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1748 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=143 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 760 DC, 760 AC, 760 MV errors in P frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+frame=  547 fps= 39 q=-0.0 size=N/A time=00:00:19.86 bitrate=N/A speed=1.42x elapsed=0:00:14.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1926000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 3 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1947000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  561 fps= 39 q=-0.0 size=N/A time=00:00:20.36 bitrate=N/A speed= 1.4x elapsed=0:00:14.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 1995000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=35327 A529 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 24 7
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 13 9
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 3 12
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 10
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 11
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 28 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 8 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 8 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 20
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2913 17294A at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1162 17F3EA at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  575 fps= 38 q=-0.0 size=N/A time=00:00:20.86 bitrate=N/A speed=1.39x elapsed=0:00:15.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2034000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  590 fps= 38 q=-0.0 size=N/A time=00:00:21.36 bitrate=N/A speed=1.38x elapsed=0:00:15.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2055000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2070000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 4 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2094000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  603 fps= 38 q=-0.0 size=N/A time=00:00:21.83 bitrate=N/A speed=1.36x elapsed=0:00:16.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2121000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  616 fps= 37 q=-0.0 size=N/A time=00:00:22.33 bitrate=N/A speed=1.35x elapsed=0:00:16.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2142000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2151000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  629 fps= 37 q=-0.0 size=N/A time=00:00:22.86 bitrate=N/A speed=1.34x elapsed=0:00:17.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2199000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2214000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 5 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  642 fps= 37 q=-0.0 size=N/A time=00:00:23.33 bitrate=N/A speed=1.33x elapsed=0:00:17.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2250000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 35 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  658 fps= 37 q=-0.0 size=N/A time=00:00:23.86 bitrate=N/A speed=1.33x elapsed=0:00:18.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2286000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 16 15
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2322000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  673 fps= 36 q=-0.0 size=N/A time=00:00:24.36 bitrate=N/A speed=1.32x elapsed=0:00:18.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2325000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 2 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  687 fps= 36 q=-0.0 size=N/A time=00:00:24.86 bitrate=N/A speed=1.31x elapsed=0:00:19.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2376000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2394000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2397000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2409000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  699 fps= 36 q=-0.0 size=N/A time=00:00:25.33 bitrate=N/A speed= 1.3x elapsed=0:00:19.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2445000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  712 fps= 36 q=-0.0 size=N/A time=00:00:25.80 bitrate=N/A speed=1.29x elapsed=0:00:20.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2457000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2466000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2493000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2499000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  722 fps= 35 q=-0.0 size=N/A time=00:00:26.26 bitrate=N/A speed=1.28x elapsed=0:00:20.50    [mpeg2video @ 0x5c8317b7b480] end mismatch left=45703 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 17 9
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 1 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 34 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 22 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 24 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 1 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 30 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 38 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 19
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4761 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2833 17F3EA at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 29 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  738 fps= 35 q=-0.0 size=N/A time=00:00:26.86 bitrate=N/A speed=1.28x elapsed=0:00:21.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2568000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=34343 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 11
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 27 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 39 18
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 1 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 640 DC, 640 AC, 640 MV errors in P frame
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+frame=  751 fps= 35 q=-0.0 size=N/A time=00:00:27.36 bitrate=N/A speed=1.27x elapsed=0:00:21.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2610000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 6 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  766 fps= 35 q=-0.0 size=N/A time=00:00:27.86 bitrate=N/A speed=1.27x elapsed=0:00:22.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2646000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 9
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2682000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  781 fps= 35 q=-0.0 size=N/A time=00:00:28.36 bitrate=N/A speed=1.26x elapsed=0:00:22.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2685000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 37 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2703000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2718000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2721000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 5 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  793 fps= 34 q=-0.0 size=N/A time=00:00:28.83 bitrate=N/A speed=1.25x elapsed=0:00:23.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2742000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2754000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2760000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  806 fps= 34 q=-0.0 size=N/A time=00:00:29.36 bitrate=N/A speed=1.25x elapsed=0:00:23.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2784000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2790000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  820 fps= 34 q=-0.0 size=N/A time=00:00:29.86 bitrate=N/A speed=1.24x elapsed=0:00:24.00    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2826000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2832000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2847000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  833 fps= 34 q=-0.0 size=N/A time=00:00:30.36 bitrate=N/A speed=1.24x elapsed=0:00:24.50    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2871000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  847 fps= 34 q=-0.0 size=N/A time=00:00:30.86 bitrate=N/A speed=1.23x elapsed=0:00:25.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2919000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2934000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  860 fps= 34 q=-0.0 size=N/A time=00:00:31.36 bitrate=N/A speed=1.23x elapsed=0:00:25.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 2973000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  874 fps= 34 q=-0.0 size=N/A time=00:00:31.86 bitrate=N/A speed=1.23x elapsed=0:00:26.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3006000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3030000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  887 fps= 33 q=-0.0 size=N/A time=00:00:32.30 bitrate=N/A speed=1.22x elapsed=0:00:26.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3042000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3057000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  901 fps= 33 q=-0.0 size=N/A time=00:00:32.86 bitrate=N/A speed=1.22x elapsed=0:00:27.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3114000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  916 fps= 33 q=-0.0 size=N/A time=00:00:33.36 bitrate=N/A speed=1.21x elapsed=0:00:27.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3141000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3153000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  929 fps= 33 q=-0.0 size=N/A time=00:00:33.86 bitrate=N/A speed=1.21x elapsed=0:00:28.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3210000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3219000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  942 fps= 33 q=-0.0 size=N/A time=00:00:34.30 bitrate=N/A speed= 1.2x elapsed=0:00:28.51    [mpeg2video @ 0x5c8317b7b480] end mismatch left=44679 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 18 11
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 22 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 4 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 10 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 7 18
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 20
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2715 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1199 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  957 fps= 33 q=-0.0 size=N/A time=00:00:34.86 bitrate=N/A speed= 1.2x elapsed=0:00:29.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3276000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3294000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  971 fps= 33 q=-0.0 size=N/A time=00:00:35.36 bitrate=N/A speed= 1.2x elapsed=0:00:29.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3330000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 440 DC, 440 AC, 440 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame=  986 fps= 33 q=-0.0 size=N/A time=00:00:35.86 bitrate=N/A speed= 1.2x elapsed=0:00:30.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3366000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3372000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 7 21
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] qscale == 0
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3387000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3402000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame=  997 fps= 33 q=-0.0 size=N/A time=00:00:36.36 bitrate=N/A speed=1.19x elapsed=0:00:30.51    [mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 1 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 480 DC, 480 AC, 480 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3426000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3432000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1010 fps= 33 q=-0.0 size=N/A time=00:00:36.86 bitrate=N/A speed=1.19x elapsed=0:00:31.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3465000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1024 fps= 32 q=-0.0 size=N/A time=00:00:37.36 bitrate=N/A speed=1.19x elapsed=0:00:31.51    [mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 400 DC, 400 AC, 400 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3522000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1038 fps= 32 q=-0.0 size=N/A time=00:00:37.86 bitrate=N/A speed=1.18x elapsed=0:00:32.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3543000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3549000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=33967 52FA at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 36 7
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 17 9
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 3 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 37 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 34 15
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4769 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2841 17F3EA at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1169 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 640 DC, 640 AC, 640 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1050 fps= 32 q=-0.0 size=N/A time=00:00:38.33 bitrate=N/A speed=1.18x elapsed=0:00:32.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3582000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 1 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 9
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 10
+[mpeg2video @ 0x5c8317b7b480] qscale == 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 15
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 17
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 19
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 21
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 440 DC, 440 AC, 440 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3618000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 37 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1064 fps= 32 q=-0.0 size=N/A time=00:00:38.83 bitrate=N/A speed=1.18x elapsed=0:00:33.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3627000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3660000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1078 fps= 32 q=-0.0 size=N/A time=00:00:39.36 bitrate=N/A speed=1.17x elapsed=0:00:33.51    frame= 1093 fps= 32 q=-0.0 size=N/A time=00:00:39.86 bitrate=N/A speed=1.17x elapsed=0:00:34.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3762000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1108 fps= 32 q=-0.0 size=N/A time=00:00:40.36 bitrate=N/A speed=1.17x elapsed=0:00:34.51    [mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 35 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3789000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1121 fps= 32 q=-0.0 size=N/A time=00:00:40.83 bitrate=N/A speed=1.17x elapsed=0:00:35.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3807000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3834000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 25 22
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 3
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 4
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 5
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 6
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 7
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 9
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 10
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 11
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 12
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 17
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 19
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 21
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 680 DC, 680 AC, 680 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1133 fps= 32 q=-0.0 size=N/A time=00:00:41.33 bitrate=N/A speed=1.16x elapsed=0:00:35.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3852000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3870000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3882000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1147 fps= 32 q=-0.0 size=N/A time=00:00:41.86 bitrate=N/A speed=1.16x elapsed=0:00:36.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3906000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 8 21
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 80 DC, 80 AC, 80 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 6 11
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3942000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1162 fps= 32 q=-0.0 size=N/A time=00:00:42.36 bitrate=N/A speed=1.16x elapsed=0:00:36.51    [mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 239 DC, 239 AC, 239 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3984000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1176 fps= 32 q=-0.0 size=N/A time=00:00:42.83 bitrate=N/A speed=1.16x elapsed=0:00:37.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 3996000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4008000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4014000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 6 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+frame= 1188 fps= 32 q=-0.0 size=N/A time=00:00:43.36 bitrate=N/A speed=1.16x elapsed=0:00:37.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4050000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 14 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+    Last message repeated 1 times
+frame= 1202 fps= 32 q=-0.0 size=N/A time=00:00:43.86 bitrate=N/A speed=1.15x elapsed=0:00:38.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4080000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4101000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1214 fps= 32 q=-0.0 size=N/A time=00:00:44.33 bitrate=N/A speed=1.15x elapsed=0:00:38.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4122000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 10
+[mpeg2video @ 0x5c8317b7b480] qscale == 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 15
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 17
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 19
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 21
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 360 DC, 360 AC, 360 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4164000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1228 fps= 31 q=-0.0 size=N/A time=00:00:44.83 bitrate=N/A speed=1.15x elapsed=0:00:39.01    [mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 35 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 560 DC, 560 AC, 560 MV errors in I frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4200000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1242 fps= 31 q=-0.0 size=N/A time=00:00:45.36 bitrate=N/A speed=1.15x elapsed=0:00:39.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4218000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4239000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4251000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1254 fps= 31 q=-0.0 size=N/A time=00:00:45.83 bitrate=N/A speed=1.15x elapsed=0:00:40.01    frame= 1269 fps= 31 q=-0.0 size=N/A time=00:00:46.36 bitrate=N/A speed=1.14x elapsed=0:00:40.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4317000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4323000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1281 fps= 31 q=-0.0 size=N/A time=00:00:46.83 bitrate=N/A speed=1.14x elapsed=0:00:41.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4347000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4374000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 35 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1296 fps= 31 q=-0.0 size=N/A time=00:00:47.36 bitrate=N/A speed=1.14x elapsed=0:00:41.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4407000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=46959 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 11
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 18
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 16 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 2 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 2 18
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 2 19
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4724 7F3FA5 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2707 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1164 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4419000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4428000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1308 fps= 31 q=-0.0 size=N/A time=00:00:47.83 bitrate=N/A speed=1.14x elapsed=0:00:42.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4446000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4458000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4470000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1319 fps= 31 q=-0.0 size=N/A time=00:00:48.36 bitrate=N/A speed=1.14x elapsed=0:00:42.51    frame= 1334 fps= 31 q=-0.0 size=N/A time=00:00:48.86 bitrate=N/A speed=1.14x elapsed=0:00:43.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4539000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4560000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1347 fps= 31 q=-0.0 size=N/A time=00:00:49.36 bitrate=N/A speed=1.13x elapsed=0:00:43.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4587000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=44295 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 22 11
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 18
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 11 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 12 19
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 8 19
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4724 7F3FA5 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2707 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1164 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4611000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1360 fps= 31 q=-0.0 size=N/A time=00:00:49.83 bitrate=N/A speed=1.13x elapsed=0:00:44.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4650000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1373 fps= 31 q=-0.0 size=N/A time=00:00:50.30 bitrate=N/A speed=1.13x elapsed=0:00:44.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4662000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 22
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 9
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 10
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 11
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 15
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 17
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 18
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 19
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 20
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 21
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in I-frame at 0 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 560 DC, 560 AC, 560 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4674000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1387 fps= 31 q=-0.0 size=N/A time=00:00:50.86 bitrate=N/A speed=1.13x elapsed=0:00:45.01    frame= 1402 fps= 31 q=-0.0 size=N/A time=00:00:51.36 bitrate=N/A speed=1.13x elapsed=0:00:45.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4755000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1416 fps= 31 q=-0.0 size=N/A time=00:00:51.86 bitrate=N/A speed=1.13x elapsed=0:00:46.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4824000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1429 fps= 31 q=-0.0 size=N/A time=00:00:52.33 bitrate=N/A speed=1.12x elapsed=0:00:46.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4842000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 12 19
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4851000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 2 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1443 fps= 31 q=-0.0 size=N/A time=00:00:52.86 bitrate=N/A speed=1.12x elapsed=0:00:47.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4896000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4923000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1456 fps= 31 q=-0.0 size=N/A time=00:00:53.33 bitrate=N/A speed=1.12x elapsed=0:00:47.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4950000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+    Last message repeated 1 times
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 10 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 40 DC, 40 AC, 40 MV errors in I frame
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 120 DC, 120 AC, 120 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4962000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1469 fps= 31 q=-0.0 size=N/A time=00:00:53.86 bitrate=N/A speed=1.12x elapsed=0:00:48.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 4986000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 9 9
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5007000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1483 fps= 31 q=-0.0 size=N/A time=00:00:54.36 bitrate=N/A speed=1.12x elapsed=0:00:48.51    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5034000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5055000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=47679 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 8 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 35 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 28 9
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 25 11
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 26 13
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 6 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 14
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 3 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 0 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 20 20
+[mpeg2video @ 0x5c8317b7b480] invalid cbp 0 at 7 19
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 20
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2715 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=1168 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1496 fps= 31 q=-0.0 size=N/A time=00:00:54.86 bitrate=N/A speed=1.12x elapsed=0:00:49.01    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5094000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 35 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 320 DC, 320 AC, 320 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1510 fps= 30 q=-0.0 size=N/A time=00:00:55.33 bitrate=N/A speed=1.12x elapsed=0:00:49.52    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5112000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5118000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5130000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 3 16
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 160 DC, 160 AC, 160 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5142000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1523 fps= 30 q=-0.0 size=N/A time=00:00:55.86 bitrate=N/A speed=1.12x elapsed=0:00:50.02    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5160000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5178000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5187000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5196000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1533 fps= 30 q=-0.0 size=N/A time=00:00:56.26 bitrate=N/A speed=1.11x elapsed=0:00:50.52    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5232000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1546 fps= 30 q=-0.0 size=N/A time=00:00:56.83 bitrate=N/A speed=1.11x elapsed=0:00:51.02    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5247000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5283000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1560 fps= 30 q=-0.0 size=N/A time=00:00:57.33 bitrate=N/A speed=1.11x elapsed=0:00:51.52    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5298000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5310000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 5 10
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5325000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5331000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1571 fps= 30 q=-0.0 size=N/A time=00:00:57.76 bitrate=N/A speed=1.11x elapsed=0:00:52.02    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5337000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5346000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] skipped MB in I-frame at 7 3
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 280 DC, 280 AC, 280 MV errors in I frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5367000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5379000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1583 fps= 30 q=-0.0 size=N/A time=00:00:58.33 bitrate=N/A speed=1.11x elapsed=0:00:52.52    [mpeg2video @ 0x5c8317b7b480] end mismatch left=44743 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 17 9
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 15 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 2 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 4 17
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 21 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 12 18
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 17 16
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 4 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 16 18
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=4753 7294A4 at 0 23
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2833 17F3EA at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 29 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 720 DC, 720 AC, 720 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5403000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5415000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=34463 F87D at 0 23
+[mpeg2video @ 0x5c8317b7b480] slice mismatch
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 17 9
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 17 8
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 2 12
+[mpeg2video @ 0x5c8317b7b480] mb incr damaged
+    Last message repeated 2 times
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 4 17
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 21 16
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 12 18
+[mpeg2video @ 0x5c8317b7b480] invalid cbp -1 at 2 17
+[mpeg2video @ 0x5c8317b7b480] ac-tex damaged at 21 20
+[mpeg2video @ 0x5c8317b7b480] end mismatch left=2833 17F3EA at 0 23
+[mpeg2video @ 0x5c8317b7b480] Invalid mb type in P-frame at 29 22
+[mpeg2video @ 0x5c8317b7b480] Warning MVs not available
+[mpeg2video @ 0x5c8317b7b480] concealing 680 DC, 680 AC, 680 MV errors in P frame
+[vist#0:0/mpeg2video @ 0x5c8317b80180] [dec:mpeg2video @ 0x5c8317b7aec0] corrupt decoded frame
+frame= 1595 fps= 30 q=-0.0 size=N/A time=00:00:58.80 bitrate=N/A speed=1.11x elapsed=0:00:53.02    [mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5427000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+[mpegts @ 0x5c8317b51e80] Packet corrupt (stream = 0, dts = 5433000).
+[in#0/mpegts @ 0x5c8317b51bc0] corrupt input packet in stream 0
+frame= 1609 fps= 30 q=-0.0 size=N/A time=00:00:59.36 bitrate=N/A speed=1.11x elapsed=0:00:53.52    

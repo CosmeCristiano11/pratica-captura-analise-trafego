@@ -1,0 +1,43 @@
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.0.3.2, port 41600
+[  6] local 10.0.11.2 port 5201 connected to 10.0.3.2 port 41608
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  1.88 MBytes  15.7 Mbits/sec                  
+[  6]   1.00-2.01   sec   512 KBytes  4.17 Mbits/sec                  
+[  6]   2.01-3.00   sec   256 KBytes  2.11 Mbits/sec                  
+[  6]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   4.00-5.00   sec  1.88 MBytes  15.7 Mbits/sec                  
+[  6]   5.00-6.00   sec  2.38 MBytes  19.9 Mbits/sec                  
+[  6]   6.00-7.02   sec  1.75 MBytes  14.5 Mbits/sec                  
+[  6]   7.02-8.00   sec   384 KBytes  3.19 Mbits/sec                  
+[  6]   8.00-9.01   sec   256 KBytes  2.09 Mbits/sec                  
+[  6]   9.01-10.00  sec   384 KBytes  3.16 Mbits/sec                  
+[  6]  10.00-11.00  sec   384 KBytes  3.14 Mbits/sec                  
+[  6]  11.00-12.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  12.00-13.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  13.00-14.00  sec  1.88 MBytes  15.7 Mbits/sec                  
+[  6]  14.00-15.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  15.00-16.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  16.00-17.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  17.00-18.02  sec   256 KBytes  2.05 Mbits/sec                  
+[  6]  18.02-19.02  sec   256 KBytes  2.11 Mbits/sec                  
+[  6]  19.02-20.00  sec   896 KBytes  7.46 Mbits/sec                  
+[  6]  20.00-21.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  21.00-22.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  22.00-23.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  23.00-24.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  24.00-25.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]  25.00-26.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  6]  26.00-27.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  6]  27.00-28.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  28.00-29.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  29.00-30.00  sec   256 KBytes  2.10 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-30.01  sec  18.8 MBytes  5.24 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated by signal Terminated(15)
